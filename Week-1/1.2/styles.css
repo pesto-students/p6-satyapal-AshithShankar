@@ -1,0 +1,107 @@
+.TopContainer {
+    display: flex;
+    height:90%;
+}
+
+a { color: inherit;   text-decoration: none;} 
+
+
+.sidebar {
+   /* position: relative 10px 20px;
+    display:table;
+    width:0px;
+
+    font-size: 25px;
+    */
+    background: #7e7e7e;
+    position: fixed;
+    top: 0;
+    left: 0;
+    float: left;
+    width: 30px;
+    height: 750px;
+    font-size: 24px;
+    display: flex;  
+    flex-wrap: wrap;
+   
+}
+
+i{
+    align-content: space-between;
+
+}
+
+ .Playsong {
+    flex: 1;
+    background-color: rgb(60, 59, 59);
+   
+}
+.cattyboard {
+    display: inline-block;
+    padding: 20px;
+    color: white;
+}
+
+.cattyboardtext {
+    display: inline-block;
+    position: absolute;
+    color: white;
+}
+.Ps-icons{
+    position: relative;
+    left: 210px;
+    width: 70%;
+    color:white;
+    bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+table {
+    flex-wrap: wrap;
+    table-layout: auto;
+    width: 100%;
+}
+
+td{
+    border:1px solid #ccc;
+    padding:5px 10px;
+    vertical-align:top;
+    word-break:break-word;
+}
+
+table tr:nth-child(odd) td{
+    background-color: white;
+}
+table tr:nth-child(even) td{
+    background-color: grey;
+
+}
+
+.BottomContainer { 
+    height: 250px; 
+    position: fixed; 
+    float: bottom;
+    top: 65%;
+    left: 30px;
+    width:100%; 
+    flex-wrap: wrap;
+    background-color: rgb(76, 76, 96);
+    align-self: flex-end;
+    font-size: 24px;
+    display:flex;
+}
+
+.cattyboard2 {
+    display: inline-block;
+    color: white;
+}
+
+.PlayBar{
+    flex: 2;
+    color: white;
+    padding-top: 220px;
+}
+.BottomContainer .PlayBar i {
+    margin: 0 90px;
+ }
